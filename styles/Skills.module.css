@@ -1,0 +1,42 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+.heading>:nth-child(1){
+    font-size: 1rem;
+    color: var(--themeRed);
+}
+.heading>:nth-child(2), .heading>:nth-child(3){
+    font-size: 2rem;
+}
+.skills{
+    display: flex;
+    margin-top:3rem ;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.Image{
+    width: 10rem;
+    height: 10rem;
+}
+.features>:nth-child(2){
+font-weight: bold;
+}
+.features>:nth-child(3){
+    color: var(--gray);
+    word-wrap: break-word;
+    width: 20rem;
+    text-align: center;
+    
+}
